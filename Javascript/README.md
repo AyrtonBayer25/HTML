@@ -1,23 +1,21 @@
-# Movie Score Looping
+# Stock Time Series Dynamic
+
+In this activity, we expand on our previous time series plot with a dynamic plot that reads the stock from the user form.
 
 ## Instructions
 
-* Given a list of movie scores, determine how many good, ok and bad movies were there.
+* Use the starter code provided and complete the function `handleSubmit`
 
-* Create a for loop to go through the `movieScore` list.
-
-* Add scores over 7 to the `goodMovies` array.
-
-* Add scores between 5 and 7 to the `okMovies` array.
-
-* Add the rest of the scores to the the `badMovies` array.
-
-* Also, calculate the average rating for all of the movies.
-
-* Finally, print out how many good, ok and bad movies there were and what the overall total score was.
+* Add an event listener to the submit button that will take the input value and search quandl for a particular stock.
 
 ## Hints
 
-* You will need to research how to push elements to an empty array.
+* To select the input value from the form, select the input element containing the user's desired stock; use the [node](https://github.com/d3/d3-selection#selection_node) function on your selection; and use dot notation to retrieve the [value](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) attribute from the result.
 
-* Check the [documentation](https://www.w3schools.com/jsref/jsref_length_array.asp) to find the length of the array.
+* To clear the input value, set the above `value` equal to the empty string.
+
+- - -
+
+### Copyright
+
+Trilogy Education Services © 2017. All Rights Reserved.
